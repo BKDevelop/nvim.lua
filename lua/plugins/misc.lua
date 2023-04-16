@@ -13,4 +13,5 @@ return {
     { "numToStr/Comment.nvim", config = true },
     { "lukas-reineke/indent-blankline.nvim", config = true }, -- Add indentation guides even on blank lines
     { "tpope/vim-sleuth" },                    -- Detect tabstop and shiftwidth automatically
+    { "/windwp/nvim-autopairs", config = true },
 }
