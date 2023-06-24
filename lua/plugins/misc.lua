@@ -16,5 +16,6 @@ return {
     { "lukas-reineke/indent-blankline.nvim", config = true }, -- Add indentation guides even on blank lines
     { "tpope/vim-sleuth" },                    -- Detect tabstop and shiftwidth automatically
     { "/windwp/nvim-autopairs", config = true },
-    { "mfussenegger/nvim-dap" }
+    { "mfussenegger/nvim-dap" },
+    { "simrat39/symbols-outline.nvim", config = true },
 }

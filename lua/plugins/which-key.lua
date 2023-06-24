@@ -10,6 +10,7 @@ return {
                 ["u"] = { "<cmd>UndotreeToggle<CR>", "Undo Tree" },
                 ["/"] = { "<Plug>(comment_toggle_linewise_current)", "Comment toggle current line" },
                 ["h"] = { "<cmd>nohlsearch<CR>", "No Highlight" },
+                ["o"] = { "<cmd>SymbolsOutline<CR>", "No Highlight" },
                 d = {
                     name = "Debug",
                     t = { "<cmd>lua require'dap'.toggle_breakpoint()<cr>", "Toggle Breakpoint" },
