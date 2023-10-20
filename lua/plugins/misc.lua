@@ -1,6 +1,5 @@
 -- small plugins that don't need special configs
 return {
-    { "vimwiki/vimwiki" },
     { "mattn/emmet-vim" },
     { "tpope/vim-surround" },
     {
@@ -13,9 +12,11 @@ return {
       dependencies = { "nvim-tree/nvim-web-devicons" }
     },
     { "numToStr/Comment.nvim", config = true },
-    { "lukas-reineke/indent-blankline.nvim", config = true }, -- Add indentation guides even on blank lines
+    { "lukas-reineke/indent-blankline.nvim", main = "ibl", opts = {} }, -- Add indentation guides even on blank lines
     { "tpope/vim-sleuth" },                    -- Detect tabstop and shiftwidth automatically
     { "/windwp/nvim-autopairs", config = true },
     { "mfussenegger/nvim-dap" },
     { "simrat39/symbols-outline.nvim", config = true },
+    { "dhruvasagar/vim-table-mode" },
+    { "tpope/vim-abolish" },                    -- Substitute on steroids
 }
