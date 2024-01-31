@@ -8,5 +8,7 @@ return {
             -- load the colorscheme here
             vim.cmd([[colorscheme tokyonight]])
         end,
-    }
+    },
+    { "gruvbox-community/gruvbox" },
+    { "catppuccin/nvim" }
 }
