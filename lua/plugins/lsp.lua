@@ -8,18 +8,7 @@ return {
             { 'williamboman/mason-lspconfig.nvim' },
 
             -- Autocompletion
-            { 'hrsh7th/nvim-cmp',
-            config = function ()
-            --  override default cmp mapping
-            local cmp = require('cmp')
-
-            cmp.setup({
-                mapping = {
-                    ['<TAB>'] = cmp.mapping.confirm({ select = true }),
-                }
-            })
-            end
-            },
+            { 'hrsh7th/nvim-cmp' },
             { 'hrsh7th/cmp-buffer' },
             { 'hrsh7th/cmp-path' },
             { 'saadparwaiz1/cmp_luasnip' },

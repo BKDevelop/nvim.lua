@@ -1,6 +1,6 @@
 -- small plugins that don't need special configs
 return {
-    { "mattn/emmet-vim" },
+    -- { "mattn/emmet-vim" },
     { "tpope/vim-surround" },
     {
         "mbbill/undotree",
