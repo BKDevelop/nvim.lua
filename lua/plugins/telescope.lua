@@ -28,11 +28,26 @@ return {
 			local tb = require('telescope.builtin')
 			local opts = { noremap = true, silent = true }
 
-			keymap('v', '<space>G', function()
+			keymap('v', '<space>fw', function()
 				local text = vim.getVisualSelection()
 				tb.live_grep({ default_text = text })
 			end, opts)
 
+			keymap('v', '<space>ff', function()
+				local text = vim.getVisualSelection()
+				tb.git_files({ default_text = text })
+			end, opts)
+
+
+			keymap('v', '<space>fF', function()
+				local text = vim.getVisualSelection()
+				tb.find_files({ default_text = text })
+			end, opts)
+
+			keymap('v', '<space>fb', function()
+				local text = vim.getVisualSelection()
+				tb.find_files({ default_text = text })
+			end, opts)
         end,
         dependencies = { 'nvim-lua/plenary.nvim' }
     }

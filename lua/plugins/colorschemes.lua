@@ -1,15 +1,12 @@
 return {
     -- the colorscheme should be available when starting Neovim
     {
-        "loctvl842/monokai-pro.nvim",
+        "catppuccin/nvim",
         lazy = false, -- make sure we load this during startup if it is your main colorscheme
         priority = 1000, -- make sure to load this before all the other start plugins
         config = function()
             -- load the colorscheme here
-            vim.cmd([[colorscheme monokai-pro]])
+            vim.cmd([[colorscheme catppuccin-macchiato]])
         end,
     },
-    { "gruvbox-community/gruvbox" },
-    { "catppuccin/nvim" },
-    { "folke/tokyonight.nvim" }
 }
