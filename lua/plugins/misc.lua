@@ -17,8 +17,11 @@ return {
     { "lukas-reineke/indent-blankline.nvim", main = "ibl", opts = {} }, -- Add indentation guides even on blank lines
     { "tpope/vim-sleuth" },                                             -- Detect tabstop and shiftwidth automatically
     { "/windwp/nvim-autopairs",              config = true },
-    { "mfussenegger/nvim-dap" },
-    { "simrat39/symbols-outline.nvim",       config = true },
+    {
+        "hedyhli/outline.nvim",
+        lazy = true,
+        cmd = { "Outline", "OutlineOpen" },
+    },
     { "dhruvasagar/vim-table-mode" },
     { "tpope/vim-abolish" }, -- Substitute on steroids
 }
