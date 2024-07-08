@@ -21,6 +21,7 @@ return {
         "hedyhli/outline.nvim",
         lazy = true,
         cmd = { "Outline", "OutlineOpen" },
+        opts = {},
     },
     { "dhruvasagar/vim-table-mode" },
     { "tpope/vim-abolish" }, -- Substitute on steroids

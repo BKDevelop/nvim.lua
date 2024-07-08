@@ -62,7 +62,7 @@ return {
                         h = { "<cmd>diffget //2<CR>", "From left" },
                         l = { "<cmd>diffget //3<CR>", "From right" },
                     },
-                    g = { "<cmd>Git<CR>", "Fugitive"}
+                    g = { "<cmd>Neogit<CR>", "Neogit"}
                 },
                 l = {
                     name = "LSP",
