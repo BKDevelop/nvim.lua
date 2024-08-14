@@ -6,7 +6,7 @@ return {
             wk.register({
                 ["w"] = { "<cmd>w!<CR>", "Save" },
                 ["q"] = { "<cmd>q<CR>", "Quit" },
-                ["e"] = { "<cmd>Ex<CR>", "Explore" },
+                ["e"] = { "<cmd>Neotree filesystem reveal right toggle<CR>", "Explore" },
                 ["u"] = { "<cmd>UndotreeToggle<CR>", "Undo Tree" },
                 ["/"] = { "<Plug>(comment_toggle_linewise_current)", "Comment toggle current line" },
                 ["h"] = { "<cmd>nohlsearch<CR>", "No Highlight" },
