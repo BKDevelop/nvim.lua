@@ -15,7 +15,7 @@ vim.keymap.set("n", "<leader>P", [["+P]])
 vim.keymap.set({"n", "v"}, "<leader>y", [["+y]])
 vim.keymap.set("n", "<leader>Y", [["+Y]])
 
-vim.keymap.set({"n", "v"}, "<leader>d", [["_d]])
+-- vim.keymap.set({"n", "v"}, "<leader>d", [["_d]])
 
 vim.keymap.set("n", "<leader>r", [[:%s/\<<C-r><C-w>\>/<C-r><C-w>/gI<Left><Left><Left>]])
 -- break up big function signatures
@@ -63,6 +63,7 @@ vim.keymap.set("v", ">", ">gv")
 vim.keymap.set("v", "<A-j>", ":m '>+1<CR>gv=gv")
 vim.keymap.set("v", "<A-k>", ":m '<-2<CR>gv=gv")
 
-    -- Move current line / block with Alt-j/k ala vscode.
+-- Move current line / block with Alt-j/k ala vscode.
 vim.keymap.set("x", "<A-j>", ":m '>+1<CR>gv-gv")
 vim.keymap.set("x", "<A-k>", ":m '<-2<CR>gv-gv")
+
