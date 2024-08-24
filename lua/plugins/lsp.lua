@@ -25,6 +25,7 @@ return {
         sources = {
           {name = 'nvim_lsp'},
         },
+        completion = { completeopt = 'menu,menuone,noinsert'},
         mapping = cmp.mapping.preset.insert({
           ['<C-Space>'] = cmp.mapping.complete(),
           ['<C-u>'] = cmp.mapping.scroll_docs(-4),
