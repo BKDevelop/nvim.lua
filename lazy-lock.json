@@ -4,6 +4,8 @@
   "cmp-nvim-lsp": { "branch": "main", "commit": "39e2eda76828d88b773cc27a3f61d2ad782c922d" },
   "diffview.nvim": { "branch": "main", "commit": "4516612fe98ff56ae0415a259ff6361a89419b0a" },
   "gitsigns.nvim": { "branch": "main", "commit": "562dc47189ad3c8696dbf460d38603a74d544849" },
+  "gruvbox": { "branch": "master", "commit": "143a3b8babcfd2bce6c99d6ba496942647c3e30b" },
+  "gruvbox-material": { "branch": "master", "commit": "91f8170a31ae6e31670629cd339df297dbd5fd5f" },
   "indent-blankline.nvim": { "branch": "master", "commit": "dddb5d21811c319eb6e51a993d8fb44b193aae3f" },
   "lazy.nvim": { "branch": "main", "commit": "077102c5bfc578693f12377846d427f49bc50076" },
   "lsp-zero.nvim": { "branch": "v4.x", "commit": "c4b05cf8e6f3917b1e2a68e6282051e97c4a3251" },
