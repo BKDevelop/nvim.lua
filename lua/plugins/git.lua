@@ -11,5 +11,8 @@ return {
       "lewis6991/gitsigns.nvim",
       dependencies = { "nvim-lua/plenary.nvim" },
       config = true
-  }            -- Add git related info in the signs columns and popups
+  },            -- Add git related info in the signs columns and popups
+  {   "akinsho/git-conflict.nvim", 
+      config = true
+  }
 }

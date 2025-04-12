@@ -53,7 +53,8 @@ return {
                 { "<leader>l", group = "LSP" },
                 { "<leader>lI", "<cmd>Mason<cr>", desc = "Mason Info" },
                 { "<leader>lS", "<cmd>Telescope lsp_dynamic_workspace_symbols<cr>", desc = "Workspace Symbols" },
-                { "<leader>la", "<cmd>lua vim.lsp.buf.code_action()<cr>", desc = "Code Action" },
+                -- { "<leader>la", "<cmd>lua vim.lsp.buf.code_action()<cr>", desc = "Code Action" },
+                { "<leader>la", "<cmd>lua require('actions-preview').code_actions()<cr>", desc = "Code Action" },
                 { "<leader>ld", "<cmd>Telescope diagnostics bufnr=0 theme=get_ivy<cr>", desc = "Buffer Diagnostics" },
                 { "<leader>le", "<cmd>Telescope quickfix<cr>", desc = "Telescope Quickfix" },
                 { "<leader>lf", vim.lsp.buf.format, desc = "Format" },
@@ -78,6 +79,7 @@ return {
                 { "<leader>sp", "<cmd>lua require('telescope.builtin').colorscheme({enable_preview = true})<cr>", desc = "Colorscheme with Preview" },
                 { "<leader>sr", "<cmd>Telescope oldfiles<cr>", desc = "Open Recent File" },
                 { "<leader>st", "<cmd>Telescope live_grep<cr>", desc = "Text" },
+                { "<leader>so", "<cmd>Telescope lsp_document_symbols<cr>", desc = "Document Symbols" },
                 { "<leader>u", "<cmd>UndotreeToggle<CR>", desc = "Undo Tree" },
             },
             {

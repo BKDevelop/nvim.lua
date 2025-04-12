@@ -50,7 +50,7 @@ vim.keymap.set("n", "<A-k>", ":m .-2<CR>==")
     -- QuickFix
 vim.keymap.set("n", "]q", ":cnext<CR>")
 vim.keymap.set("n", "[q", ":cprev<CR>")
-vim.keymap.set("n", "<C-q>", ":call QuickFixToggle()<CR>")
+vim.keymap.set("n", "<C-q>", ":copen<CR>")
 
 vim.keymap.set("n", "<S-l>", ":bnext<CR>")
 vim.keymap.set("n", "<S-h>", ":bprev<CR>")
