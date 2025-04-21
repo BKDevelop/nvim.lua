@@ -66,7 +66,8 @@ return {
                 { "<leader>lr", vim.lsp.buf.rename, desc = "Rename" },
                 { "<leader>ls", "<cmd>Telescope lsp_document_symbols<cr>", desc = "Document Symbols" },
                 { "<leader>lw", "<cmd>Telescope diagnostics<cr>", desc = "Diagnostics" },
-                { "<leader>o", "<cmd>Outline<CR>", desc = "Toggle Outline" },
+                { "<leader>o", "<cmd>Telescope lsp_document_symbols<cr>", desc = "Document Symbols" },
+                { "<leader>O", "<cmd>Telescope lsp_dynamic_workspace_symbols<cr>", desc = "Workspace Symbols" },
                 { "<leader>s", group = "Search" },
                 { "<leader>sC", "<cmd>Telescope commands<cr>", desc = "Commands" },
                 { "<leader>sH", "<cmd>Telescope highlights<cr>", desc = "Find highlight groups" },
@@ -79,7 +80,7 @@ return {
                 { "<leader>sp", "<cmd>lua require('telescope.builtin').colorscheme({enable_preview = true})<cr>", desc = "Colorscheme with Preview" },
                 { "<leader>sr", "<cmd>Telescope oldfiles<cr>", desc = "Open Recent File" },
                 { "<leader>st", "<cmd>Telescope live_grep<cr>", desc = "Text" },
-                { "<leader>so", "<cmd>Telescope lsp_document_symbols<cr>", desc = "Document Symbols" },
+                { "<leader>o", "<cmd>Telescope lsp_document_symbols<cr>", desc = "Document Symbols" },
                 { "<leader>u", "<cmd>UndotreeToggle<CR>", desc = "Undo Tree" },
             },
             {
